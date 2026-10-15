@@ -1,0 +1,30 @@
+[
+  { "id": "nivel1", "nivel": 1, "titulo": "Hábitos e organização básica", "disponivel": true,
+    "descricao": "Aprenda a organizar o dinheiro que entra e sai.",
+    "modulos": [
+      { "id": "n1m1", "titulo": "O que é orçamento pessoal",
+        "texto": "Orçamento é o plano que mostra quanto dinheiro entra (mesada, bolsa, renda extra) e quanto sai (lanche, transporte, lazer). Quando você anota tudo, enxerga para onde o dinheiro vai e decide com calma.",
+        "reflexao": "Quanto dinheiro entrou e saiu na sua semana passada?" },
+      { "id": "n1m2", "titulo": "Necessidade x desejo",
+        "texto": "Necessidade é o que você precisa (comer, estudar, se locomover). Desejo é o que você quer mas pode esperar. Separar os dois ajuda a escolher sem culpa e sem exageros.",
+        "reflexao": "Pense em uma compra recente: era necessidade ou desejo?" },
+      { "id": "n1m3", "titulo": "Guardar antes de gastar",
+        "texto": "Em vez de guardar o que sobra, separe uma parte assim que o dinheiro chegar. Mesmo valores pequenos, guardados todo mês, formam uma reserva para metas e imprevistos.",
+        "reflexao": "Qual valor, por mês, você consegue separar sem prejudicar o dia a dia?" }
+    ] },
+  { "id": "nivel2", "nivel": 2, "titulo": "Planejamento, metas e consumo", "disponivel": true, "requer": "nivel1",
+    "descricao": "Transforme sonhos em metas e entenda por que os preços mudam.",
+    "modulos": [
+      { "id": "n2m1", "titulo": "Metas financeiras",
+        "texto": "Uma boa meta tem valor, prazo e plano. Exemplo: comprar um game de R$ 3.000 em 12 meses. Dividindo o valor pelos meses, você descobre quanto precisa guardar por mês.",
+        "reflexao": "Qual é a sua meta? Quanto custa e em quanto tempo você quer alcançá-la?" },
+      { "id": "n2m2", "titulo": "Inflação: por que o preço sobe",
+        "texto": "Inflação é o aumento geral dos preços ao longo do tempo. Se um game custa R$ 3.000 hoje e os preços sobem cerca de 5% em um ano, ele custará perto de R$ 3.150. Por isso, dinheiro parado compra cada vez menos.",
+        "reflexao": "O que você já percebeu que ficou mais caro nos últimos anos?" },
+      { "id": "n2m3", "titulo": "Consumo consciente e compras online",
+        "texto": "Frete grátis, contagem regressiva e promoção-relâmpago são gatilhos para comprar por impulso. Faça uma lista, compare preços e espere 24 horas antes de decidir.",
+        "reflexao": "Qual gatilho de compra mais atrai você?" }
+    ] },
+  { "id": "nivel3", "nivel": 3, "titulo": "Poupança, crédito e empreendedorismo inicial", "disponivel": false, "requer": "nivel2",
+    "descricao": "Conteúdo previsto para as próximas etapas do projeto.", "modulos": [] }
+]

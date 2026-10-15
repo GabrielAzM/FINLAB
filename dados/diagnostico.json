@@ -1,0 +1,35 @@
+{
+  "titulo": "Diagnóstico inicial",
+  "descricao": "Cinco perguntas rápidas para saber de onde você está partindo. Não vale nota!",
+  "perguntas": [
+    { "id": "pergunta1", "enunciado": "Você recebeu R$ 100 de mesada. O que costuma fazer?",
+      "opcoes": [
+        { "texto": "Gasto tudo assim que recebo", "pontos": 0 },
+        { "texto": "Gasto a maior parte e guardo o que sobra", "pontos": 1 },
+        { "texto": "Separo uma parte para guardar antes de gastar", "pontos": 2 } ] },
+    { "id": "pergunta2", "enunciado": "O que é inflação?",
+      "opcoes": [
+        { "texto": "Não sei explicar", "pontos": 0 },
+        { "texto": "Quando os produtos ficam mais baratos", "pontos": 0 },
+        { "texto": "O aumento geral dos preços ao longo do tempo", "pontos": 2 } ] },
+    { "id": "pergunta3", "enunciado": "Para que serve um orçamento pessoal?",
+      "opcoes": [
+        { "texto": "Só serve para quem tem muito dinheiro", "pontos": 0 },
+        { "texto": "Para saber quanto o banco pode me emprestar", "pontos": 0 },
+        { "texto": "Para planejar as entradas e saídas de dinheiro", "pontos": 2 } ] },
+    { "id": "pergunta4", "enunciado": "Você quer algo caro que não pode pagar agora. O que faz?",
+      "opcoes": [
+        { "texto": "Compro parcelado sem olhar os juros", "pontos": 0 },
+        { "texto": "Peço dinheiro emprestado a alguém", "pontos": 1 },
+        { "texto": "Pesquiso preços e junto dinheiro aos poucos", "pontos": 2 } ] },
+    { "id": "pergunta5", "enunciado": "Você vê uma promoção de algo que não planejava comprar.",
+      "opcoes": [
+        { "texto": "Compro na hora para não perder", "pontos": 0 },
+        { "texto": "Compro se o desconto for grande", "pontos": 1 },
+        { "texto": "Penso se preciso mesmo e comparo preços", "pontos": 2 } ] }
+  ],
+  "faixas": [
+    { "minimo": 0, "nivel": "Iniciante", "trilhaRecomendada": "nivel1" },
+    { "minimo": 6, "nivel": "Intermediário", "trilhaRecomendada": "nivel2" }
+  ]
+}

@@ -1,0 +1,7 @@
+[
+  { "id": "poupador-consciente", "nome": "Poupador Consciente", "icone": "🐷", "descricao": "Escolha guardar dinheiro 3 vezes.", "criterio": { "tipo": "contagemTipo", "tipoEscolha": "poupar", "minimo": 3 } },
+  { "id": "consumidor-atento", "nome": "Consumidor Atento", "icone": "🛒", "descricao": "Faça 4 escolhas de consumo consciente.", "criterio": { "tipo": "contagemTipo", "tipoEscolha": "consumo_consciente", "minimo": 4 } },
+  { "id": "investidor-iniciante", "nome": "Investidor Iniciante", "icone": "📈", "descricao": "Acumule R$ 50 de rendimento na poupança.", "criterio": { "tipo": "rendimentoAcumulado", "minimo": 50 } },
+  { "id": "estudante-dedicado", "nome": "Estudante Dedicado", "icone": "📚", "descricao": "Conclua a trilha do Nível 1.", "criterio": { "tipo": "trilhaConcluida", "trilhaId": "nivel1" } },
+  { "id": "game-conquistado", "nome": "Game Conquistado", "icone": "🏆", "descricao": "Compre o game ao final de 12 meses.", "criterio": { "tipo": "metaAlcancada" } }
+]

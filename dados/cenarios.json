@@ -1,0 +1,32 @@
+[
+  { "id": "cenario1", "titulo": "Promoção de tênis", "descricao": "O tênis que você queria está em promoção por R$ 280.",
+    "opcoes": [
+      { "texto": "Comprar o tênis agora", "variacao": -280, "pontos": -6, "tipo": "impulso", "feedback": "Compra por impulso pesa no orçamento. Perguntar 'eu preciso disso agora?' ajuda a decidir melhor." },
+      { "texto": "Esperar e comparar preços", "variacao": 0, "pontos": 5, "tipo": "consumo_consciente", "feedback": "Pesquisar antes de comprar evita pagar mais e dá tempo de refletir." },
+      { "texto": "Comprar um modelo mais simples por R$ 120", "variacao": -120, "pontos": 1, "tipo": "neutro", "feedback": "Escolher algo mais barato reduz o gasto, mas ainda é um gasto que afasta você da meta." } ] },
+  { "id": "cenario2", "titulo": "Convite para lanchar", "descricao": "Seus amigos chamaram você para lanchar fora.",
+    "opcoes": [
+      { "texto": "Ir e pedir o que quiser (R$ 150)", "variacao": -150, "pontos": -5, "tipo": "impulso", "feedback": "Lazer é importante, mas sem limite o gasto cresce rápido." },
+      { "texto": "Propor um lanche coletivo em casa (R$ 15)", "variacao": -15, "pontos": 4, "tipo": "consumo_consciente", "feedback": "Dá para se divertir gastando menos. Criatividade também é educação financeira." },
+      { "texto": "Ir e gastar R$ 60 com um combinado", "variacao": -60, "pontos": 0, "tipo": "neutro", "feedback": "Definir um limite antes de sair é um bom hábito." } ] },
+  { "id": "cenario3", "titulo": "Celular com a tela trincada", "descricao": "A tela do celular trincou, mas ele ainda funciona.",
+    "opcoes": [
+      { "texto": "Comprar um celular novo (R$ 900)", "variacao": -900, "pontos": -8, "tipo": "impulso", "feedback": "Trocar o que ainda funciona é um gasto grande. Avalie se a necessidade é real." },
+      { "texto": "Trocar apenas a tela (R$ 180)", "variacao": -180, "pontos": 1, "tipo": "neutro", "feedback": "Consertar costuma sair mais barato que substituir." },
+      { "texto": "Colocar película e esperar (R$ 30)", "variacao": -30, "pontos": 3, "tipo": "consumo_consciente", "feedback": "Proteger e adiar a troca preserva o dinheiro da meta." } ] },
+  { "id": "cenario4", "titulo": "Assinaturas e jogos online", "descricao": "Chegaram três ofertas de assinatura de jogos e streaming.",
+    "opcoes": [
+      { "texto": "Assinar os três serviços (R$ 90)", "variacao": -90, "pontos": -4, "tipo": "impulso", "feedback": "Pequenas mensalidades somadas viram um gasto fixo grande." },
+      { "texto": "Escolher só um serviço (R$ 30)", "variacao": -30, "pontos": 3, "tipo": "consumo_consciente", "feedback": "Priorizar o que você realmente usa é consumo consciente." },
+      { "texto": "Não assinar nenhum e guardar o dinheiro", "variacao": 0, "pontos": 4, "tipo": "poupar", "feedback": "Dinheiro guardado rende e aproxima você da meta." } ] },
+  { "id": "cenario5", "titulo": "Dinheiro extra de aniversário", "descricao": "Você ganhou R$ 150 de presente.",
+    "opcoes": [
+      { "texto": "Gastar tudo em roupas", "variacao": 0, "pontos": -3, "tipo": "impulso", "feedback": "O dinheiro extra foi embora sem contribuir para a meta." },
+      { "texto": "Guardar metade (R$ 75) e gastar metade", "variacao": 75, "pontos": 4, "tipo": "poupar", "feedback": "Equilibrar prazer e poupança é um caminho sustentável." },
+      { "texto": "Guardar tudo (R$ 150)", "variacao": 150, "pontos": 6, "tipo": "poupar", "feedback": "Dinheiro extra guardado acelera a meta e ainda rende na poupança." } ] },
+  { "id": "cenario6", "titulo": "Frete grátis na loja online", "descricao": "Uma loja oferece frete grátis hoje, com contagem regressiva na tela.",
+    "opcoes": [
+      { "texto": "Comprar um item que não planejava (R$ 90)", "variacao": -90, "pontos": -5, "tipo": "impulso", "feedback": "A contagem regressiva é um gatilho para comprar sem pensar." },
+      { "texto": "Comprar só o necessário da lista (R$ 40)", "variacao": -40, "pontos": 3, "tipo": "consumo_consciente", "feedback": "Seguir a lista protege você das compras por impulso." },
+      { "texto": "Colocar na lista de desejos por 30 dias", "variacao": 0, "pontos": 5, "tipo": "consumo_consciente", "feedback": "Esperar 30 dias costuma revelar se a vontade era passageira." } ] }
+]

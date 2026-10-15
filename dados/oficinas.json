@@ -1,0 +1,12 @@
+[
+  { "id": "oficina1", "titulo": "Orçamento mensal com cenários simulados", "duracao": "50 minutos", "nivelRecomendado": "Nível 1",
+    "objetivo": "Montar um orçamento mensal fictício e testar como imprevistos alteram o planejamento.",
+    "materiais": ["Planilha ou folha de papel", "Cartões com situações do dia a dia"],
+    "passos": ["Em duplas, definir uma renda mensal fictícia.", "Listar gastos fixos, variáveis e a parcela que será guardada.", "Sortear um cartão de imprevisto e ajustar o orçamento.", "Apresentar para a turma o que foi preciso mudar."],
+    "produtoFinal": "Orçamento mensal da dupla com uma reserva definida." },
+  { "id": "oficina2", "titulo": "Protótipo de app de controle de gastos", "duracao": "100 minutos (2 aulas)", "nivelRecomendado": "Nível 2",
+    "objetivo": "Desenhar as telas de um aplicativo simples para registrar gastos e acompanhar metas.",
+    "materiais": ["Papel e canetas ou ferramenta de design (ex.: Canva)", "Modelo de tela em branco"],
+    "passos": ["Definir quem usará o app e qual problema ele resolve.", "Desenhar as telas: registro de gasto, resumo do mês e meta.", "Trocar os protótipos entre grupos para receber sugestões.", "Ajustar o desenho com base no retorno recebido."],
+    "produtoFinal": "Protótipo de 3 telas com a meta financeira do grupo." }
+]

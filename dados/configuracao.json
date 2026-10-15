@@ -1,0 +1,13 @@
+{
+  "nomePlataforma": "FinanLab Maker",
+  "pontuacaoInicial": 50,
+  "simulador": {
+    "nomeMeta": "comprar um game",
+    "saldoInicial": 1000,
+    "rendaMensal": 250,
+    "precoJogo": 3000,
+    "inflacaoMensal": 0.004,
+    "rendimentoPoupancaMensal": 0.005,
+    "totalMeses": 12
+  }
+}
